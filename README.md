@@ -1,4 +1,4 @@
-# Analiza-kurs-w-walut
+# Analiza-kurs-w-walut \n
 Definicja zadania realizowanego w projekcie
 Analizując kursy walut i ceny wymiany w kantorach, zauważyli, że przy sprzyjających okolicznościach na wymianie waluty można zarobić.
 Dla przypadkowych słuchaczy zawsze mieli pod ręką kartkę z rozpisanym przykładem.
@@ -27,11 +27,11 @@ b.) wykrywanie sytuacji ekonomicznego arbitrażu, czyli kombinacji, gdy kursy wa
 
 Przykład pliku dostarczanego przez GW do zleceniobiorcy.
 
-# Waluty (id | symbol | pełna nazwa)
+ Waluty (id | symbol | pełna nazwa)
 0 EUR euro
 1 GBP funt brytyjski
 2 USD dolar amerykański
-# Kursy walut (id | symbol (waluta wejściowa) | symbol (waluta wyjściowa) | kurs | typ opłaty | opłata)
+ Kursy walut (id | symbol (waluta wejściowa) | symbol (waluta wyjściowa) | kurs | typ opłaty | opłata)
 0 EUR GBP 0,8889 PROC 0,0001
 1 GBP USD 1,2795 PROC 0
 2 EUR USD 1,1370 STAŁA 0.025
