@@ -1,0 +1,16 @@
+﻿# Waluty
+7 RUB rubli
+1 GBP funt bRytyjski 
+2 USD dolar amerykanski	
+4 YEN jeny
+5 MXN Peso Mexique
+6 CHF Swiss franc
+8 EUR euro
+# Kursy
+0 EUR GBP 0.8889 PROC 0.0001
+1 GBP USD 1,2795 STAŁA 8.4
+2 USD CHF 0,995 PROC 0,002
+4 YEN MXN 0.93 PROC 0,001
+5 MXN EUR 0.043321 STAŁA 2
+6 CHF YEN 0.943 STAŁA 5 
+7 EUR MXN 0.0825 STAŁA 4
