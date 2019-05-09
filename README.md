@@ -1,0 +1,1 @@
+# Analiza-kurs-w-walut
