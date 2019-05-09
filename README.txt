@@ -1,4 +1,5 @@
-# Analiza-kurs-w-walut \n
+# Analiza-kurs-w-walut
+ 
 Definicja zadania realizowanego w projekcie
 Analizując kursy walut i ceny wymiany w kantorach, zauważyli, że przy sprzyjających okolicznościach na wymianie waluty można zarobić.
 Dla przypadkowych słuchaczy zawsze mieli pod ręką kartkę z rozpisanym przykładem.
