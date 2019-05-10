@@ -15,6 +15,7 @@ EUR/USD: 1,1370
 USD/EUR: 0,8795
 
 W tym przypadku jeśli chcemy wymienić 1000 EUR na USD, to można postąpić na dwa sposoby.
+
 I. Bezpośrednia wymiana EUR -> USD po kursie 1,1370
 
 1000 * 1,1370 = 1137 USD
@@ -26,6 +27,7 @@ II. Pośrednia wymiana EUR -> GBP -> USD
 
 Zadaniem projektu jest:
 a.) wykrywanie korzystnej ścieżki wymiany waluty dla wskazanej waluty;
+
 b.) wykrywanie sytuacji ekonomicznego arbitrażu, czyli kombinacji, gdy kursy walut są tak ułożone, aby (w pokazanym przykładzie) wymiana EUR -> GBP -> USD -> EUR zwracała więcej niż kwota wejściowa (więcej niż 1000 EUR dla omawianego przykładu).
 
 Przykład pliku dostarczanego przez GW do zleceniobiorcy.
