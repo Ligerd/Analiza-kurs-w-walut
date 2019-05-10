@@ -1,8 +1,10 @@
 # Analiza-kursów-walut
  
 Definicja zadania realizowanego w projekcie
+
 Analizując kursy walut i ceny wymiany w kantorach, zauważyli, że przy sprzyjających okolicznościach na wymianie waluty można zarobić.
-Dla przypadkowych słuchaczy zawsze mieli pod ręką kartkę z rozpisanym przykładem.
+
+Przykład:
 
 Nazwy walut: euro (EUR), funty brytyjskie (GBP), dolary amerykańskie (USD).
 
@@ -22,17 +24,17 @@ II. Pośrednia wymiana EUR -> GBP -> USD
 1000 * 0,8889 = 888,9 GBP
 888,9 * 1,2795 = 1137,34755 USD
 
-Swojemu zleceniobiorcy wyznaczyli dwa zadania:
+Zadaniem projektu jest:
 a.) wykrywanie korzystnej ścieżki wymiany waluty dla wskazanej waluty;
 b.) wykrywanie sytuacji ekonomicznego arbitrażu, czyli kombinacji, gdy kursy walut są tak ułożone, aby (w pokazanym przykładzie) wymiana EUR -> GBP -> USD -> EUR zwracała więcej niż kwota wejściowa (więcej niż 1000 EUR dla omawianego przykładu).
 
 Przykład pliku dostarczanego przez GW do zleceniobiorcy.
 
- Waluty (id | symbol | pełna nazwa)
+Waluty (id | symbol | pełna nazwa)
 0 EUR euro
 1 GBP funt brytyjski
 2 USD dolar amerykański
- Kursy walut (id | symbol (waluta wejściowa) | symbol (waluta wyjściowa) | kurs | typ opłaty | opłata)
+Kursy walut (id | symbol (waluta wejściowa) | symbol (waluta wyjściowa) | kurs | typ opłaty | opłata)
 0 EUR GBP 0,8889 PROC 0,0001
 1 GBP USD 1,2795 PROC 0
 2 EUR USD 1,1370 STAŁA 0.025
