@@ -9,9 +9,13 @@ Przykład:
 Nazwy walut: euro (EUR), funty brytyjskie (GBP), dolary amerykańskie (USD).
 
 Kursy wymiany:
+
 EUR/GBP: 0,8889
+
 GBP/USD: 1,2795
+
 EUR/USD: 1,1370
+
 USD/EUR: 0,8795
 
 W tym przypadku jeśli chcemy wymienić 1000 EUR na USD, to można postąpić na dwa sposoby.
@@ -33,16 +37,24 @@ b.) wykrywanie sytuacji ekonomicznego arbitrażu, czyli kombinacji, gdy kursy wa
 Przykład pliku dostarczanego przez GW do zleceniobiorcy.
 
 Waluty (id | symbol | pełna nazwa)
+
 0 EUR euro
+
 1 GBP funt brytyjski
+
 2 USD dolar amerykański
+
 Kursy walut (id | symbol (waluta wejściowa) | symbol (waluta wyjściowa) | kurs | typ opłaty | opłata)
 0 EUR GBP 0,8889 PROC 0,0001
+
 1 GBP USD 1,2795 PROC 0
+
 2 EUR USD 1,1370 STAŁA 0.025
+
 3 USD EUR 0,8795 STAŁA 0.01
 
 Wynikiem działania programu:
+
 a) w przypadku wybrania trybu najkorzystniejszej wymiany waluty (1000 EUR -> USD):
 
 wartość początkowa -> ciąg kolejnych wymian -> wartość końcowa
